@@ -1,0 +1,262 @@
+[
+    {
+        "name": "grinning",
+        "label": "😀"
+    },
+    {
+        "name": "grin",
+        "label": "😁"
+    },
+    {
+        "name": "joy",
+        "label": "😂"
+    },
+    {
+        "name": "rolling_on_the_floor_laughing",
+        "label": "🤣"
+    },
+    {
+        "name": "slightly_smiling_face",
+        "label": "🙂"
+    },
+    {
+        "name": "upside_down_face",
+        "label": "🙃"
+    },
+    {
+        "name": "wink",
+        "label": "😉"
+    },
+    {
+        "name": "blush",
+        "label": "😊"
+    },
+    {
+        "name": "heart_eyes",
+        "label": "😍"
+    },
+    {
+        "name": "kissing_heart",
+        "label": "😘"
+    },
+    {
+        "name": "kissing_closed_eyes",
+        "label": "😚"
+    },
+    {
+        "name": "kissing",
+        "label": "😗"
+    },
+    {
+        "name": "smiling_face_with_tear",
+        "label": "🥲"
+    },
+    {
+        "name": "smiling_face_with_heart_eyes",
+        "label": "🥰"
+    },
+    {
+        "name": "star_struck",
+        "label": "🤩"
+    },
+    {
+        "name": "face_blowing_a_kiss",
+        "label": "😘"
+    },
+    {
+        "name": "relaxed",
+        "label": "☺️"
+    },
+    {
+        "name": "innocent",
+        "label": "😇"
+    },
+    {
+        "name": "slightly_smiling_face",
+        "label": "🙂"
+    },
+    {
+        "name": "hugging_face",
+        "label": "🤗"
+    },
+    {
+        "name": "thinking_face",
+        "label": "🤔"
+    },
+    {
+        "name": "face_with_raised_eyebrow",
+        "label": "🤨"
+    },
+    {
+        "name": "neutral_face",
+        "label": "😐"
+    },
+    {
+        "name": "expressionless",
+        "label": "😑"
+    },
+    {
+        "name": "face_without_mouth",
+        "label": "😶"
+    },
+    {
+        "name": "smirk",
+        "label": "😏"
+    },
+    {
+        "name": "unamused",
+        "label": "😒"
+    },
+    {
+        "name": "face_with_rolling_eyes",
+        "label": "🙄"
+    },
+    {
+        "name": "grimacing",
+        "label": "😬"
+    },
+    {
+        "name": "lying_face",
+        "label": "🤥"
+    },
+    {
+        "name": "relieved",
+        "label": "😌"
+    },
+    {
+        "name": "pensive",
+        "label": "😔"
+    },
+    {
+        "name": "sleepy",
+        "label": "😪"
+    },
+    {
+        "name": "drooling_face",
+        "label": "🤤"
+    },
+    {
+        "name": "sleeping",
+        "label": "😴"
+    },
+    {
+        "name": "face_with_medical_mask",
+        "label": "😷"
+    },
+    {
+        "name": "face_with_thermometer",
+        "label": "🤒"
+    },
+    {
+        "name": "face_with_head_bandage",
+        "label": "🤕"
+    },
+    {
+        "name": "nauseated_face",
+        "label": "🤢"
+    },
+    {
+        "name": "face_vomiting",
+        "label": "🤮"
+    },
+    {
+        "name": "sneezing_face",
+        "label": "🤧"
+    },
+    {
+        "name": "hot_face",
+        "label": "🥵"
+    },
+    {
+        "name": "cold_face",
+        "label": "🥶"
+    },
+    {
+        "name": "woozy_face",
+        "label": "🥴"
+    },
+    {
+        "name": "knocked_out_face",
+        "label": "😵"
+    },
+    {
+        "name": "exploding_head",
+        "label": "🤯"
+    },
+    {
+        "name": "cowboy_hat_face",
+        "label": "🤠"
+    },
+    {
+        "name": "partying_face",
+        "label": "🥳"
+    },
+    {
+        "name": "disguised_face",
+        "label": "🥸"
+    },
+    {
+        "name": "smiling_imp",
+        "label": "😈"
+    },
+    {
+        "name": "imp",
+        "label": "👿"
+    },
+    {
+        "name": "skull",
+        "label": "💀"
+    },
+    {
+        "name": "skull_and_crossbones",
+        "label": "☠️"
+    },
+    {
+        "name": "ghost",
+        "label": "👻"
+    },
+    {
+        "name": "alien",
+        "label": "👽"
+    },
+    {
+        "name": "robot",
+        "label": "🤖"
+    },
+    {
+        "name": "smiley_cat",
+        "label": "😺"
+    },
+    {
+        "name": "smile_cat",
+        "label": "😸"
+    },
+    {
+        "name": "joy_cat",
+        "label": "😹"
+    },
+    {
+        "name": "heart_eyes_cat",
+        "label": "😻"
+    },
+    {
+        "name": "smirk_cat",
+        "label": "😼"
+    },
+    {
+        "name": "kissing_cat",
+        "label": "😽"
+    },
+    {
+        "name": "scream_cat",
+        "label": "🙀"
+    },
+    {
+        "name": "crying_cat_face",
+        "label": "😿"
+    },
+    {
+        "name": "pouting_cat",
+        "label": "😾"
+    }
+]
