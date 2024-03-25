@@ -11,7 +11,7 @@ describe('FancyInput', () => {
         const input = getByPlaceholderText(defaultPlaceholder);
 
         fireEvent.change(input, { target: { value: ':sm' } });
-        expect(queryByText('😀')).toBeInTheDocument();
+        expect(queryByText('🙂')).toBeInTheDocument();
     });
 
     test('Ensure emoji picker renders correct emoji in emoji picker when typing colon followed by 2 or more alphanumeric characters', () => {
@@ -20,7 +20,7 @@ describe('FancyInput', () => {
 
         fireEvent.change(input, { target: { value: ':cat' } });
         expect(queryByText('😸')).toBeInTheDocument();
-        expect(queryByText('😀')).not.toBeInTheDocument();
+        expect(queryByText('🙂')).not.toBeInTheDocument();
     });
 
     test('Ensure emoji picker does not render when inputting a single alphanumeric character or special characters', () => {
@@ -28,10 +28,10 @@ describe('FancyInput', () => {
         const input = getByPlaceholderText(defaultPlaceholder);
 
         fireEvent.change(input, { target: { value: ':s' } });
-        expect(queryByText('😀')).not.toBeInTheDocument();
+        expect(queryByText('🙂')).not.toBeInTheDocument();
 
         fireEvent.change(input, { target: { value: ': ' } });
-        expect(queryByText('😀')).not.toBeInTheDocument();
+        expect(queryByText('🙂')).not.toBeInTheDocument();
     });
 
     test('Ensure emoji picker does not render when typing does not match emoji trigger', () => {
@@ -39,7 +39,7 @@ describe('FancyInput', () => {
         const input = getByPlaceholderText(defaultPlaceholder);
 
         fireEvent.change(input, { target: { value: 'No emoji trigger here' } });
-        expect(queryByText('😀')).not.toBeInTheDocument();
+        expect(queryByText('🙂')).not.toBeInTheDocument();
     });
 
     test('Ensure emoji picker closes when selecting an emoji', () => {
@@ -47,10 +47,10 @@ describe('FancyInput', () => {
         const input = getByPlaceholderText(defaultPlaceholder);
 
         fireEvent.change(input, { target: { value: ':sm' } });
-        const emojiPicker = queryByText('😀');
+        const emojiPicker = queryByText('🙂');
 
         fireEvent.click(emojiPicker);
-        expect(input.value).toBe('😀');
+        expect(input.value).toBe('🙂');
     });
 
     test('Ensure emoji picker closes when typing a space', () => {
@@ -59,7 +59,7 @@ describe('FancyInput', () => {
 
         fireEvent.change(input, { target: { value: ':sm' } });
         fireEvent.change(input, { target: { value: ':sm ' } });
-        expect(queryByText('😀')).not.toBeInTheDocument();
+        expect(queryByText('🙂')).not.toBeInTheDocument();
     });
 
     test('Ensure emoji picker closes when moving cursor to another part of the input', () => {
@@ -68,7 +68,7 @@ describe('FancyInput', () => {
 
         fireEvent.change(input, { target: { value: 'Hello :sm' } });
         fireEvent.click(input, { target: { selectionStart: 6, selectionEnd: 6 } });
-        expect(queryByText('😀')).not.toBeInTheDocument();
+        expect(queryByText('🙂')).not.toBeInTheDocument();
     });
 
     test('Ensure selected emoji appends to input value, replacing the trigger string', () => {
@@ -76,10 +76,10 @@ describe('FancyInput', () => {
         const input = getByPlaceholderText(defaultPlaceholder);
 
         fireEvent.change(input, { target: { value: ':sm' } });
-        const emojiPicker = queryByText('😀');
+        const emojiPicker = queryByText('🙂');
 
         fireEvent.click(emojiPicker);
-        expect(input.value).toBe('😀');
+        expect(input.value).toBe('🙂');
     });
 
     test('sEnsure selected emoji appends to input value without adding extra spaces', () => {
@@ -88,9 +88,9 @@ describe('FancyInput', () => {
 
         fireEvent.change(input, { target: { value: 'Hello :sm ' } });
         fireEvent.click(input, { target: { selectionStart: 6, selectionEnd: 6 } });
-        const emojiPicker = queryByText('😀');
+        const emojiPicker = queryByText('🙂');
 
         fireEvent.click(emojiPicker);
-        expect(input.value).toBe('Hello 😀 ');
+        expect(input.value).toBe('Hello 🙂 ');
     });
 });
