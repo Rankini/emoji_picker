@@ -32,7 +32,5 @@ I wrote a handful of tests, but i had to downgrade @testing-library/react to v12
 
 To run the tests use `npm test`.
 
-SIDENOTE: My tests were working(bar the cursor one), then I ran them again at the end and now most are failing. Not sure what I changed but I am aware of this
-
 ### Conclusion
 I hope this helps you understand my approach to software engineering (under tightframes). Please reach out to me if you have any questions. Looking forward to hearing from you :)
